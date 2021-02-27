@@ -13,6 +13,13 @@ function increaseHighScore(currentScore){
 
 console.log(increaseHighScore(20));
 
+ var newHighScore = function (currentScore){
+    var newHighScore = 2 * currentScore ;
+    return newHighScore;
+}
 
 
-// document.getElementById("try").innerHTML = txt;
+
+
+
+document.getElementById("try").innerHTML = newHighScore(10);
