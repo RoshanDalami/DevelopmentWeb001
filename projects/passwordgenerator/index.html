@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Password Genetor | Random</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="javascript/generate.js"></script>
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+       <div class="container">
+           <form action="" name="passGen">
+               <div class="col-xs-12">
+               <input type="text" name="output" id="" class="out" disabled>
+               <input type="button" value="Generate password " onClick="populateform(this.form.length.value) "
+               class="btn btn-success btn-block myBtn">  <br>
+               <div class="col-xs-10"><strong class="pass">Password Length :</strong></div>
+                <div class="col-xs-2"><input type="text" name="length" size="3" value="6" class="in"></div>
+            </div>
+           </form>
+       </div>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
