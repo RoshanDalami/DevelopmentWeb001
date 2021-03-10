@@ -1,0 +1,21 @@
+body{
+    background-color: red;
+    color: #fff;
+}
+.center{
+    text-align: center;
+    font-size: 2em;
+}
+.center h1{
+    background-color: rgba(50, 50, 50, 0.5);
+}
+/* .center img{
+    margin-top: -43px;
+} */
+.sample{
+    margin: 0 auto;
+    margin-top: -43px;
+    height: 400px;
+    width: 900px;
+    background-color: #fff;
+}

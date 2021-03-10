@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(94, 139, 25);
+    color: #fff;
+    text-align: center;
+}
+.center h1{
+    background-color: rgba(50, 50, 50, 0.4);
+    color: #fff;
+    font-size: 50px;
+}
+.center h2{
+    color: #fff;
+    font-size: 30px;
+}
+.center p{
+    font-size: 20px;
+}
+.btn1{
+    height: 40px;
+    background-color: #ff6633;
+    color:#fff;
+    
+}
+.btn2{
+    height: 40px;
+    background-color: #722409;
+    color:#fff;
+    
+}
+.new{
+    text-align :left;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.new h1{
+    background-color: rgb(50, 50, 50);
+}

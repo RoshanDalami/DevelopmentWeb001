@@ -1,0 +1,38 @@
+body{
+    background-color: #ff6633;
+}
+.center{
+    text-align: center;
+}
+.center h1{
+    background-color: rgba(50, 50, 50, 0.5);
+    height: 50px;
+    color: #fff;
+    text-align: center;
+}
+.btn1{
+    font-size: 30px;
+    background-color: rgb(26, 248, 26);
+    color: #fff;
+    border-radius: 50%;
+}
+.btn1:hover{
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 50%;
+}
+.btn2{
+    font-size: 30px;
+    background-color: rgb(6, 255, 6);
+    color: #fff;
+    border-radius: 50%;
+}
+.btn2:hover{
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 50%;
+}
+#inputy{
+    height: 30px;
+    width: 75%px;
+}
