@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+   background-image: url(/fullProjects/images/pattern.png) ;
+}
+#colleft{
+    background-color: rgba(33, 198, 204);
+    height: 300px;
+    text-align: center;
+    margin-top: -30px;
+   
+    
+}
+#colright{
+    background-color: rgb(164, 242, 245);
+    height: 300px;
+    text-align: center;
+    margin-top: -30px;
+
+}
+#textcolleft{
+    text-align: center;
+    padding: 50px;
+}
+#textcolright{
+    text-align: center;
+    padding: 50px;
+}
+#firsttext{
+    color: rgba(33, 198, 204);
+    font-size: 52px;
+}
+#secondtext{
+    color: rgb(178, 231, 98);
+}
+.para{
+    color: rgb(172, 154, 154);
+}
+.blockfirst{
+    background-color:rgb(241, 232, 232);
+    width: 100%;
+}
+.button{
+    width: 200px;
+}
+#doller{
+    font-size: 50px;
+}
+#tobemute{
+    font-size: 20px;
+    
+}
